@@ -1,0 +1,50 @@
+.facebook-btn {
+    background-color: rgb(22, 109, 221);
+    color: white;
+    border: none;
+    font-size: 12px;
+    margin-left:30px;
+    
+    padding: 7px 10px 7px 10px;
+    margin: 7px;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .facebook-btn:hover {
+    background-color: rgb(24, 114, 233);
+    padding: 10px 15px 10px 15px;
+    margin: 7px 7px 7px 70px;
+  }
+
+  .facebook-btn:active {
+    background-color: rgb(22, 109, 221);
+    box-shadow: 2px 2px 10px rgb(0,0,0,0.15);
+  }
+
+  .google-btn {
+    background-color: white;
+    border-style: solid;
+    border-width: 0.4px;
+    color: gray;
+    font-weight: bold;
+    font-size: 12px;
+    height: 30px;
+    width: 100px;
+    border-radius: 2px;
+    border-color: #d9dce0;
+    cursor: pointer;
+  
+  }
+
+  .google-btn:hover {
+    background-color: rgb(241, 239, 239);
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.15);
+  }
+
+  .google-btn:active {
+    background-color: rgb(232, 230, 230);
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.15);
+  }

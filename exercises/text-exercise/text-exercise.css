@@ -1,0 +1,39 @@
+h1 {
+    text-transform: uppercase;
+    color : rgb(44,62,80);
+    letter-spacing: 2px;
+}
+
+h2 {
+    color : rgb(231,76,80);
+    font-style:italic;
+    border-bottom-style: solid;
+    padding-bottom: 5px;
+    border-bottom-width: 2px;
+}
+
+.wave-underline {
+    color : rgb(142,68,173);
+    font-family: "Courier New";
+    font-size: 1.2rem;
+    text-decoration: underline wavy;
+}
+
+.shadow-text {
+    font-size: 24px;
+    color : rgb(52,152,219);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+}
+
+.spaced-text{
+   letter-spacing: 5px; 
+   word-spacing: 10px;
+   text-align: justify;
+}
+
+.highlighted-word{
+   background-color: rgb(241,196,15); 
+   font-weight:bold;
+   padding:3px;
+   border-radius:3px;
+}
