@@ -1,49 +1,38 @@
-
-
-.root-box{
-    border:1px solid #4169E1 ;
-    padding:20px;
+.root-box {
+  padding: 20px;
+  border: 1px solid #4169e1;
 }
-.inputs-box, .actions-box{
-    border: 0.5px solid gray;
-    padding:20px
+input {
+  padding: 8px;
 }
-.names-box{
-    width: 100%;
-}
-.input-firstname{
-    width: 49%;
-}
-.input-lastname{
-    width: 49.5%;
-}
-
-.actions-box{
-    margin-top:100px;
-}
-input{
-    padding:8px;
-    border-radius: 3px;
-    border: 1px solid grey
-}
-.input-email {
-    margin-top:5px;
-    display: block;
-    width: 100%;
-
-}
-
-
-
 button {
-    width: 100%;
-    margin-top:15px;
-    background-color: #4169E1;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 8px 20px;
-    font-size: 16px;
-    cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+  background-color: #4166e1;
+  color: white;
+  padding: 8px 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.input-firstname {
+  width: 49.3%;
+}
+.input-lastname {
+  width: 49.3%;
+}
+.inputs-box {
+  padding: 20px;
+  border: 0.5px solid gray;
 }
 
+.input-email {
+  margin-top: 5px;
+  width: 100%;
+}
+.actions-box {
+  margin-top: 100px;
+  padding: 20px;
+  border: 0.5px solid gray;
+}
